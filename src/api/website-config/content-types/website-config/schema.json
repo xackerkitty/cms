@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "website_configs",
+  "info": {
+    "singularName": "website-config",
+    "pluralName": "website-configs",
+    "displayName": "website-config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
